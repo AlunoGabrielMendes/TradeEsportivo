@@ -1,0 +1,43 @@
+    @charset "UTF-8";
+    body {
+        background-color: rgba(0, 0, 0, 0.911);
+    }
+    
+    h1 {
+        color: white;
+        text-align: center;
+    }
+    
+    h2 {
+        color: white;
+        text-align: center;
+    }
+    
+    h3 {
+        color: white;
+        text-align: center;
+    }
+    
+    p {
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        font-style: italic;
+    }
+    
+    iframe {
+        display: inline-block;
+        margin-right: 10px;
+        width: 30%;
+    }
+    
+    div {
+        text-align: center;
+    }
+    
+    li {
+        color: white;
+        list-style-type: '\00A0';
+        list-style-position: inside;
+        columns: 2;
+    }
