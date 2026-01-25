@@ -26,14 +26,14 @@ p {
     font-style: italic; 
 } 
 
+div { 
+    text-align: center; 
+} 
+
 iframe { 
     display: inline-block; 
     margin-right: 10px; 
     width: 33%; 
-} 
-
-div { 
-    text-align: center; 
 } 
 
 li { 
@@ -42,4 +42,5 @@ li {
     list-style-position: inside; 
     columns: 2; 
 }
+
 
