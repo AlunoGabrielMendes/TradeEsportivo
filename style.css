@@ -28,6 +28,7 @@
     iframe {
         display: inline-block;
         margin-right: 10px;
+        width: 50%;
     }
     
     div {
@@ -40,6 +41,7 @@
         list-style-position: inside;
         columns: 2;
     }
+
 
 
 
