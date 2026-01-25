@@ -1,54 +1,54 @@
-    @charset "UTF-8";
-    body {
-        background-color: rgba(0, 0, 0, 0.911);
-    }
-    
-    h1 {
-        color: white;
-        text-align: center;
-    }
-    
-    h2 {
-        color: white;
-        text-align: center;
-    }
-    
-    h3 {
-        color: white;
-        text-align: center;
-    }
-    
-    p {
-        color: white;
-        text-align: center;
-        font-size: 20px;
-        font-style: italic;
-    }
+@charset "UTF-8";
 
-    iframe {
-        display: block;
+body {
+    background-color: rgba(0, 0, 0, 0.911);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* Container dos jogos */
+.container-jogos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Iframes do SofaScore */
+.container-jogos iframe {
+    width: 48%;
+    min-width: 320px;
+    max-width: 900px;
+    height: 360px; /* ALTURA CRÍTICA PARA NÃO CORTAR OS GOLS */
+    border: none;
+    background-color: white;
+}
+
+/* Responsivo para telas menores */
+@media (max-width: 768px) {
+    .container-jogos iframe {
         width: 100%;
-        max-width: 900px;
         height: 360px;
-        margin: 20px auto;
-        border: none;
     }
+}
 
-    
-    div {
-        text-align: center;
-    }
-    
-    li {
-        color: white;
-        list-style-type: '\00A0';
-        list-style-position: inside;
-        columns: 2;
-    }
-
-
-
-
-
-
-
+li {
+    color: white;
+    list-style-type: '\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
