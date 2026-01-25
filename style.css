@@ -27,11 +27,13 @@
 
     iframe {
         display: block;
-        margin: 15px auto;
         width: 100%;
         max-width: 900px;
         height: 360px;
+        margin: 20px auto;
+        border: none;
     }
+
     
     div {
         text-align: center;
@@ -43,6 +45,7 @@
         list-style-position: inside;
         columns: 2;
     }
+
 
 
 
