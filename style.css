@@ -24,6 +24,11 @@
         font-size: 20px;
         font-style: italic;
     }
+
+    iframe {
+        display: inline-block;
+        margin-right: 10px;
+    }
     
     div {
         text-align: center;
@@ -35,6 +40,7 @@
         list-style-position: inside;
         columns: 2;
     }
+
 
 
 
