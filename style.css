@@ -26,9 +26,11 @@
     }
 
     iframe {
-        display: inline-block;
-        margin-right: 10px;
-        width: 50%;
+        display: block;
+        margin: 15px auto;
+        width: 100%;
+        max-width: 900px;
+        height: 360px;
     }
     
     div {
@@ -41,6 +43,7 @@
         list-style-position: inside;
         columns: 2;
     }
+
 
 
 
