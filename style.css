@@ -19,31 +19,25 @@ p {
     font-style: italic;
 }
 
-/* Container dos jogos */
+/* Container simples (SEM flex, SEM grid) */
 .container-jogos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
+    width: 100%;
 }
 
-/* Iframes do SofaScore */
-.container-jogos iframe {
-    width: 48%;
-    min-width: 320px;
-    max-width: 900px;
-    height: 360px; /* ALTURA CRÍTICA PARA NÃO CORTAR OS GOLS */
+/* Wrapper do iframe */
+.jogo {
+    width: 100%;
+    max-width: 1000px; /* largura grande já no load */
+    margin: 30px auto;
+}
+
+/* Iframe do SofaScore */
+.jogo iframe {
+    width: 100%;
+    height: 420px; /* altura suficiente pros gols */
     border: none;
+    display: block;
     background-color: white;
-}
-
-/* Responsivo para telas menores */
-@media (max-width: 768px) {
-    .container-jogos iframe {
-        width: 100%;
-        height: 360px;
-    }
 }
 
 li {
